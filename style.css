@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+   .para,
+  .small-para {
+    color: hsl(0, 0%, 0%);
+    font-weight: 800;
+  }
+  /* faltaba agregar .para para que el texto tome el valor de 14px
+  el texto pertenece a la clase para small-para */
+  .para.small-para {  
+    font-size: 14px;
+    font-weight: 800;
+  }
+   .para {
+    font-size: 22px;
+  }
+  /* aca .confirm apuntaba a la clase=confirm y no al id=confirm-button */
+   #confirm-button {
+    background: green;
+    color: white;
+    font-weight: bold;
+  } 
+   .button {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+  }
+  /* .child era el original */
+   div.text.child {
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+    font-size: 14px;
+  }
+   
+  div.text {
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+    font-weight: 100;
+  }
+  
